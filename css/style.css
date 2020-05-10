@@ -1,0 +1,188 @@
+.navbar {
+  border-bottom: #00bcff 3px solid;
+  opacity: 0.8;
+}
+
+.navbar .navbar-brand img {
+  max-height: 40px;
+}
+
+#home-section {
+  background: url("../img/background-business-computer-connection-303383.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .home-inner h3,
+#home-section .home-inner .subheading {
+  color: #dadada;
+}
+
+#home-section .fas,
+#home-section #create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .logo {
+  max-height: 100px;
+}
+
+#home-section a {
+  width: 300px;
+  background-color: #33495f;
+  border: #33495f;
+  color: #fff;
+}
+
+#home-section a:hover {
+  background-color: #273849;
+}
+
+#technologien-section i {
+  color: #33495f;
+}
+
+#about-section .fas {
+  color: #33495f;
+}
+
+#projekte-section,
+#projekte-3-section {
+  background: #33495f;
+  color: white;
+  position: relative;
+}
+
+#projekte-section p,
+#projekte-3-section p {
+  color: lightgrey;
+}
+
+#projekte-section .tech-icons,
+#projekte-3-section .tech-icons {
+  background: white;
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#projekte-section i,
+#projekte-3-section i {
+  color: #33495f;
+}
+
+#projekte-2-section .tech-icons {
+  background: #33495f;
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#projekte-2-section i {
+  color: #fff;
+}
+
+#projekte-2-section a {
+  border-color: #33495f;
+  color: #33495f;
+}
+
+#projekte-2-section a:hover {
+  color: #fff;
+  background-color: #33495f;
+}
+
+#kontakt {
+  background: url("../img/background-business-computer-connection-303383.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#kontakt .dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#kontakt h2 {
+  color: #dadada;
+}
+
+#kontakt input,
+#kontakt textarea {
+  background-color: #33495f;
+  border: white;
+  color: white;
+}
+
+#kontakt button {
+  background-color: #33495f;
+  border: #33495f;
+  color: #fff;
+}
+
+#kontakt input::-webkit-input-placeholder,
+#kontakt textarea::-webkit-input-placeholder {
+  color: lightgrey;
+}
+
+#kontakt input:-ms-input-placeholder,
+#kontakt textarea:-ms-input-placeholder {
+  color: lightgrey;
+}
+
+#kontakt input::-ms-input-placeholder,
+#kontakt textarea::-ms-input-placeholder {
+  color: lightgrey;
+}
+
+#kontakt input::placeholder,
+#kontakt textarea::placeholder {
+  color: lightgrey;
+}
+
+#kontakt button:hover {
+  background-color: #273849;
+}
+
+footer {
+  background-color: #33495f;
+  color: #dadada;
+}
+
+footer i:hover {
+  color: #fff;
+}
+
+footer a,
+footer a:hover {
+  color: #dadada;
+  text-decoration: none;
+}
